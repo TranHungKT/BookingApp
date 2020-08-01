@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
-import {StyleSheet, View} from 'react-native';
+import React, { Component } from "react";
+import { StyleSheet, View } from "react-native";
 
-import Root from './src/main';
-
+import Root from "./src/main";
+console.ignoredYellowBox = ["Warning: Each", "Warning: Failed"];
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -13,7 +13,9 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Root {...this.props} />
-        <Text style={{justifyContent: 'center', alignItems: 'center'}}>HI</Text>
+        <Text style={{ justifyContent: "center", alignItems: "center" }}>
+          HI
+        </Text>
       </View>
     );
   }
@@ -25,12 +27,12 @@ const styles = StyleSheet.create({
   },
   welcome: {
     fontSize: 20,
-    textAlign: 'center',
+    textAlign: "center",
     margin: 10,
   },
   instructions: {
-    textAlign: 'center',
-    color: '#333333',
+    textAlign: "center",
+    color: "#333333",
     marginBottom: 5,
   },
 });
