@@ -10,7 +10,7 @@ export default class Home extends Component {
     this.state = {};
   }
   componentDidMount() {
-    // this.props.getCurrentLocation();
+    this.props.getCurrentLocation();
   }
   render() {
     const tempregion = {
@@ -22,7 +22,7 @@ export default class Home extends Component {
 
     return (
       <Container>
-        <MapContainer region={this.props.region} />
+        <MapContainer region={this.props.home.region} />
       </Container>
     );
   }

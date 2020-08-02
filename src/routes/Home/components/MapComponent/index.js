@@ -10,7 +10,7 @@ export const MapContainer = ({ region }) => {
         style={styles.map}
         region={region}
       >
-        {/* <MapView.Marker pinColor="red" coordinate={region} /> */}
+        <MapView.Marker pinColor="red" coordinate={region} />
       </MapView>
     </View>
   );
