@@ -10,19 +10,19 @@ export default class Home extends Component {
     this.state = {};
   }
   componentDidMount() {
-    console.log("Lat", this.props.region.coords.longitude);
+    // this.props.getCurrentLocation();
   }
-
   render() {
     const tempregion = {
-      latitude: this.props.region.coords.latitude,
-      longitude: this.props.region.coords.longitude,
+      latitude: 37.785834,
+      longitude: -122.406417,
       latitudeDelta: 0.0922,
       longitudeDelta: 0.0421,
     };
+
     return (
       <Container>
-        <MapContainer region={tempregion} />
+        <MapContainer region={this.props.region} />
       </Container>
     );
   }

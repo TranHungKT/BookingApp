@@ -1,6 +1,6 @@
-import {createStore, combineReducers, applyMiddleware, compose} from 'redux';
-import thunk from 'redux-thunk';
-import HomeReducer from '../routes/Home/modules/home';
+import { createStore, combineReducers, applyMiddleware, compose } from "redux";
+import thunk from "redux-thunk";
+import HomeReducer from "../routes/Home/modules/home";
 
 const initialState = {};
 
@@ -11,7 +11,7 @@ const reducers = combineReducers({
 });
 
 const composeEnhancers =
-  typeof window === 'object' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
+  typeof window === "object" && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
     ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({})
     : compose;
 

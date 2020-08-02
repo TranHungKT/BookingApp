@@ -3,6 +3,7 @@ import { View, Text, TouchableOpacity } from "react-native";
 import { connect } from "react-redux";
 import { setName, getCurrentLocation } from "../modules/actions";
 import Home from "../components/Home";
+
 class HomeContainer extends Component {
   constructor(props) {
     super(props);
@@ -10,11 +11,11 @@ class HomeContainer extends Component {
   }
   componentDidMount() {
     this.props.getCurrentLocation();
-    console.log(this.props.home.region);
   }
   loadName = () => {
     this.props.setName();
   };
+
   render() {
     return (
       <View style={{ flex: 1 }}>
