@@ -45,6 +45,14 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"스마트폰에서 열기"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"로그인"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google 계정으로 로그인"</string>
+    <string name="places_autocomplete_clear_button">검색어 지우기</string>
+    <string name="places_autocomplete_label">장소 선택</string>
+    <string name="places_autocomplete_no_results_for_query">%1$s 검색결과 없음</string>
+    <string name="places_autocomplete_search_hint">검색</string>
+    <string name="places_cancel">취소</string>
+    <string name="places_powered_by_google">Google 제공</string>
+    <string name="places_search_error">검색결과를 로드할 수 없습니다.</string>
+    <string name="places_try_again">다시 시도</string>
     <string msgid="730395136688082741" name="search_menu_title">"검색"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

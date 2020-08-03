@@ -17,6 +17,8 @@ import com.reactnativecommunity.geolocation.GeolocationPackage;
 import org.reactnative.maskedview.RNCMaskedViewPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
+// react-native-google-places
+import com.arttitude360.reactnative.rngoogleplaces.RNGooglePlacesPackage;
 // react-native-maps
 import com.airbnb.android.react.maps.MapsPackage;
 // react-native-reanimated
@@ -25,8 +27,6 @@ import com.swmansion.reanimated.ReanimatedPackage;
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 // react-native-screens
 import com.swmansion.rnscreens.RNScreensPackage;
-// react-native-vector-icons
-import com.oblador.vectoricons.VectorIconsPackage;
 
 public class PackageList {
   private Application application;
@@ -75,11 +75,11 @@ public class PackageList {
       new GeolocationPackage(),
       new RNCMaskedViewPackage(),
       new RNGestureHandlerPackage(),
+      new RNGooglePlacesPackage(),
       new MapsPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
-      new RNScreensPackage(),
-      new VectorIconsPackage()
+      new RNScreensPackage()
     ));
   }
 }

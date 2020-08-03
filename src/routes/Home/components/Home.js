@@ -13,16 +13,20 @@ export default class Home extends Component {
     this.props.getCurrentLocation();
   }
   render() {
-    const tempregion = {
-      latitude: 37.785834,
-      longitude: -122.406417,
-      latitudeDelta: 0.0922,
-      longitudeDelta: 0.0421,
-    };
+    // const tempregion = {
+    //   latitude: 37.785834,
+    //   longitude: -122.406417,
+    //   latitudeDelta: 0.0922,
+    //   longitudeDelta: 0.0421,
+    // };
 
     return (
       <Container>
-        <MapContainer region={this.props.home.region} />
+        <MapContainer
+          region={this.props.region}
+          getInputData={this.props.getInputData}
+          toggleSearchResultModal={this.props.toggleSearchResultModal}
+        />
       </Container>
     );
   }

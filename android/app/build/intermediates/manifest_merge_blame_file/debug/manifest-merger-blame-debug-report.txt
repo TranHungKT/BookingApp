@@ -49,65 +49,82 @@
 28-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:8:7-39
 29        android:roundIcon="@mipmap/ic_launcher_round"
 29-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:10:7-52
-30        android:theme="@style/AppTheme"
-30-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:12:7-38
-31        android:usesCleartextTraffic="true" >
-31-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/debug/AndroidManifest.xml:7:18-53
-32        <meta-data
-32-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:13:8-15:66
-33            android:name="com.google.android.geo.API_KEY"
-33-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:14:9-54
-34            android:value="AIzaSyBY93lUtTxn9UlrzX9p5vIvbxm5s44jHWY" />
-34-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:15:9-64
-35
-36        <uses-library
-36-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:16:7-85
-37            android:name="org.apache.http.legacy"
-37-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:16:21-58
-38            android:required="false" />
-38-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:16:59-83
-39
-40        <activity
-40-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:17:7-27:18
-41            android:name="com.awesomeproject.MainActivity"
-41-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:18:9-37
-42            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-42-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:20:9-86
-43            android:label="@string/app_name"
-43-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:19:9-41
-44            android:launchMode="singleTask"
-44-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:21:9-40
-45            android:windowSoftInputMode="adjustResize" >
-45-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:22:9-51
-46            <intent-filter>
-46-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:23:9-26:25
-47                <action android:name="android.intent.action.MAIN" />
-47-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:24:13-65
-47-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:24:21-62
-48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:25:13-73
-49-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:25:23-70
-50            </intent-filter>
-51        </activity>
-52        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-52-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:28:7-84
-52-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:28:17-81
-53        <activity
-53-->[com.google.android.gms:play-services-base:17.2.1] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/d5e7f99d50103f96fc90d363ab01c8e4/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
-54            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-54-->[com.google.android.gms:play-services-base:17.2.1] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/d5e7f99d50103f96fc90d363ab01c8e4/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
-55            android:exported="false"
-55-->[com.google.android.gms:play-services-base:17.2.1] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/d5e7f99d50103f96fc90d363ab01c8e4/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
-56            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-56-->[com.google.android.gms:play-services-base:17.2.1] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/d5e7f99d50103f96fc90d363ab01c8e4/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
-57
-58        <meta-data
-58-->[com.google.android.gms:play-services-basement:17.2.1] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/87c51a1aedec52fd73461f186d311db5/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
-59            android:name="com.google.android.gms.version"
-59-->[com.google.android.gms:play-services-basement:17.2.1] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/87c51a1aedec52fd73461f186d311db5/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
-60            android:value="@integer/google_play_services_version" />
-60-->[com.google.android.gms:play-services-basement:17.2.1] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/87c51a1aedec52fd73461f186d311db5/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
-61    </application>
-62
-63</manifest>
+30        android:supportsRtl="true"
+30-->[:react-native-google-places] /Users/tranhung/Documents/Code/AwesomeProject/node_modules/react-native-google-places/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-35
+31        android:theme="@style/AppTheme"
+31-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:12:7-38
+32        android:usesCleartextTraffic="true" >
+32-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/debug/AndroidManifest.xml:7:18-53
+33        <meta-data
+33-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:13:8-15:66
+34            android:name="com.google.android.geo.API_KEY"
+34-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:14:9-54
+35            android:value="AIzaSyBY93lUtTxn9UlrzX9p5vIvbxm5s44jHWY" />
+35-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:15:9-64
+36
+37        <uses-library
+37-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:16:7-85
+38            android:name="org.apache.http.legacy"
+38-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:16:21-58
+39            android:required="false" />
+39-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:16:59-83
+40
+41        <activity
+41-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:17:7-27:18
+42            android:name="com.awesomeproject.MainActivity"
+42-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:18:9-37
+43            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+43-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:20:9-86
+44            android:label="@string/app_name"
+44-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:19:9-41
+45            android:launchMode="singleTask"
+45-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:21:9-40
+46            android:windowSoftInputMode="adjustResize" >
+46-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:22:9-51
+47            <intent-filter>
+47-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:23:9-26:25
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:24:13-65
+48-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:24:21-62
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:25:13-73
+50-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:25:23-70
+51            </intent-filter>
+52        </activity>
+53        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" /> <!-- Autocomplete -->
+53-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:28:7-84
+53-->/Users/tranhung/Documents/Code/AwesomeProject/android/app/src/main/AndroidManifest.xml:28:17-81
+54        <activity
+54-->[com.google.android.libraries.places:places:1.1.0] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/c1101d286ea0eb98cdf16a1df5c316a1/jetified-places-1.1.0/AndroidManifest.xml:16:9-23:20
+55            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+55-->[com.google.android.libraries.places:places:1.1.0] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/c1101d286ea0eb98cdf16a1df5c316a1/jetified-places-1.1.0/AndroidManifest.xml:17:13-91
+56            android:exported="false"
+56-->[com.google.android.libraries.places:places:1.1.0] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/c1101d286ea0eb98cdf16a1df5c316a1/jetified-places-1.1.0/AndroidManifest.xml:18:13-37
+57            android:hardwareAccelerated="true"
+57-->[com.google.android.libraries.places:places:1.1.0] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/c1101d286ea0eb98cdf16a1df5c316a1/jetified-places-1.1.0/AndroidManifest.xml:19:13-47
+58            android:label="@string/places_autocomplete_label"
+58-->[com.google.android.libraries.places:places:1.1.0] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/c1101d286ea0eb98cdf16a1df5c316a1/jetified-places-1.1.0/AndroidManifest.xml:20:13-62
+59            android:theme="@style/PlacesAutocompleteThemeOverlay"
+59-->[com.google.android.libraries.places:places:1.1.0] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/c1101d286ea0eb98cdf16a1df5c316a1/jetified-places-1.1.0/AndroidManifest.xml:21:13-66
+60            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+60-->[com.google.android.libraries.places:places:1.1.0] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/c1101d286ea0eb98cdf16a1df5c316a1/jetified-places-1.1.0/AndroidManifest.xml:22:13-71
+61        </activity>
+62        <activity
+62-->[com.google.android.gms:play-services-base:17.2.1] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/d5e7f99d50103f96fc90d363ab01c8e4/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+63            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+63-->[com.google.android.gms:play-services-base:17.2.1] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/d5e7f99d50103f96fc90d363ab01c8e4/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+64            android:exported="false"
+64-->[com.google.android.gms:play-services-base:17.2.1] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/d5e7f99d50103f96fc90d363ab01c8e4/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+65            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+65-->[com.google.android.gms:play-services-base:17.2.1] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/d5e7f99d50103f96fc90d363ab01c8e4/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+66
+67        <meta-data
+67-->[com.google.android.gms:play-services-basement:17.2.1] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/87c51a1aedec52fd73461f186d311db5/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+68            android:name="com.google.android.gms.version"
+68-->[com.google.android.gms:play-services-basement:17.2.1] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/87c51a1aedec52fd73461f186d311db5/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+69            android:value="@integer/google_play_services_version" />
+69-->[com.google.android.gms:play-services-basement:17.2.1] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/87c51a1aedec52fd73461f186d311db5/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+70    </application>
+71
+72</manifest>

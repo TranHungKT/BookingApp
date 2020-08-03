@@ -7,7 +7,12 @@ const height = Dimensions.get("window").height;
 const ASPECT_RADIO = width / height;
 const LATITUDE_DELTA = 0.0922;
 const LONGTITUDE_DELTA = ASPECT_RADIO * LATITUDE_DELTA;
-const { SET_NAME, GET_CURRENT_LOCATION } = constants;
+const {
+  SET_NAME,
+  GET_CURRENT_LOCATION,
+  GET_INPUT,
+  TOGGLE_SEARCH_RESULT,
+} = constants;
 
 const initialState = {
   name: "",
@@ -17,6 +22,8 @@ const initialState = {
     latitudeDelta: LATITUDE_DELTA,
     longitudeDelta: LONGTITUDE_DELTA,
   },
+  inputData: {},
+  resultTypes: {},
 };
 
 export default function HomeReducer(state = initialState, action) {
@@ -37,6 +44,31 @@ export default function HomeReducer(state = initialState, action) {
           longitudeDelta: LONGTITUDE_DELTA,
         },
       };
+    case GET_INPUT:
+      const { key, value } = action.payload;
+      return {
+        ...state,
+        [key]: value,
+      };
+    case TOGGLE_SEARCH_RESULT:
+      if (action.payload === "pickUp") {
+        return {
+          ...state,
+          resultTypes: {
+            pickUp: true,
+          },
+          dropOff: false,
+        };
+      }
+      if (action.payload === "dropOff") {
+        return {
+          ...state,
+          resultTypes: {
+            pickUp: false,
+          },
+          dropOff: true,
+        };
+      }
     default:
       return initialState;
   }

@@ -45,6 +45,14 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Ouvrir sur le téléphone"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Se connecter"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Se connecter avec Google"</string>
+    <string name="places_autocomplete_clear_button">Effacer la recherche</string>
+    <string name="places_autocomplete_label">Choisir un lieu</string>
+    <string name="places_autocomplete_no_results_for_query">Aucun résultat pour \"%1$s\"</string>
+    <string name="places_autocomplete_search_hint">Rechercher</string>
+    <string name="places_cancel">Annuler</string>
+    <string name="places_powered_by_google">Fourni par Google</string>
+    <string name="places_search_error">Impossible de charger les résultats de recherche.</string>
+    <string name="places_try_again">Réessayer</string>
     <string msgid="730395136688082741" name="search_menu_title">"Rechercher"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

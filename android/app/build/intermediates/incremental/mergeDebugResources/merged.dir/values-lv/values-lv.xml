@@ -45,6 +45,14 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Atvērt tālrunī"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Pierakstīties"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Pierakstīties ar Google kontu"</string>
+    <string name="places_autocomplete_clear_button">Notīrīt meklēšanas vaicājumu</string>
+    <string name="places_autocomplete_label">Vietas izvēle</string>
+    <string name="places_autocomplete_no_results_for_query">Nav rezultātu vaicājumam “%1$s”</string>
+    <string name="places_autocomplete_search_hint">Meklēt</string>
+    <string name="places_cancel">Atcelt</string>
+    <string name="places_powered_by_google">Darbību nodrošina Google</string>
+    <string name="places_search_error">Nevar ielādēt meklēšanas rezultātus.</string>
+    <string name="places_try_again">Mēģināt vēlreiz</string>
     <string msgid="730395136688082741" name="search_menu_title">"Meklēt"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

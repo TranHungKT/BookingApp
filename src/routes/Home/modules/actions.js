@@ -1,6 +1,11 @@
 import constants from "./actionConstants";
 
-const { SET_NAME, GET_CURRENT_LOCATION } = constants;
+const {
+  SET_NAME,
+  GET_CURRENT_LOCATION,
+  GET_INPUT,
+  TOGGLE_SEARCH_RESULT,
+} = constants;
 import Geolocation from "@react-native-community/geolocation";
 export function setName() {
   return {
@@ -20,5 +25,19 @@ export function getCurrentLocation() {
       },
       (error) => console.log(error)
     );
+  };
+}
+
+export function getInputData(payload) {
+  return {
+    type: GET_INPUT,
+    payload,
+  };
+}
+
+export function toggleSearchResultModal(payload) {
+  return {
+    type: TOGGLE_SEARCH_RESULT,
+    payload,
   };
 }

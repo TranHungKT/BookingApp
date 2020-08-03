@@ -45,6 +45,14 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Öppna på mobilen"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Logga in"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Logga in med Google"</string>
+    <string name="places_autocomplete_clear_button">Rensa sökning</string>
+    <string name="places_autocomplete_label">Välj en plats</string>
+    <string name="places_autocomplete_no_results_for_query">Inga resultat för %1$s</string>
+    <string name="places_autocomplete_search_hint">Sök</string>
+    <string name="places_cancel">Avbryt</string>
+    <string name="places_powered_by_google">Tillhandahålls av Google</string>
+    <string name="places_search_error">Det går inte att läsa in sökresultat.</string>
+    <string name="places_try_again">Försök igen</string>
     <string msgid="730395136688082741" name="search_menu_title">"Sök"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

@@ -3,8 +3,14 @@ import { View, Text } from "react-native";
 import styles from "./styles";
 import MapView from "react-native-maps";
 
-import { SearchBox } from "../SearchBox";
-export const MapContainer = ({ region }) => {
+import SearchBox from "../SearchBox";
+import SearchResult from "../SearchResult";
+import { toggleSearchResultModal } from "../../modules/actions";
+export const MapContainer = ({
+  region,
+  getInputData,
+  toggleSearchResultModal,
+}) => {
   return (
     <View style={styles.container}>
       <MapView
@@ -14,7 +20,11 @@ export const MapContainer = ({ region }) => {
       >
         <MapView.Marker pinColor="red" coordinate={region} />
       </MapView>
-      <SearchBox />
+      <SearchBox
+        getInputData={getInputData}
+        toggleSearchResultModal={toggleSearchResultModal}
+      />
+      {/* <SearchResult /> */}
     </View>
   );
 };

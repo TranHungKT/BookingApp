@@ -45,6 +45,14 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"ಫೋನ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"ಸೈನ್ ಇನ್"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿ"</string>
+    <string name="places_autocomplete_clear_button">ಹುಡುಕಾಟ ತೆರವುಗೊಳಿಸಿ</string>
+    <string name="places_autocomplete_label">ಸ್ಥಳವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="places_autocomplete_no_results_for_query">%1$s ಸಂಬಂಧಿಸಿದ ಯಾವುದೇ ಫಲಿತಾಂಶಗಳಿಲ್ಲ</string>
+    <string name="places_autocomplete_search_hint">ಹುಡುಕಿ</string>
+    <string name="places_cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="places_powered_by_google">Google ನಿಂದ ಸಂಚಾಲಿತವಾಗಿದೆ</string>
+    <string name="places_search_error">ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳನ್ನು ಲೋಡ್‍ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
+    <string name="places_try_again">ಪುನಃ ಪ್ರಯತ್ನಿಸಿ</string>
     <string msgid="730395136688082741" name="search_menu_title">"ಹುಡುಕಿ"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

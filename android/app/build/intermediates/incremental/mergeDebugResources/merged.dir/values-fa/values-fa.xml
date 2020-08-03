@@ -45,6 +45,14 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"باز کردن در تلفن"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"ورود به سیستم"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"‏ورود به سیستم با Google‎"</string>
+    <string name="places_autocomplete_clear_button">پاک کردن جستجو</string>
+    <string name="places_autocomplete_label">انتخاب مکان</string>
+    <string name="places_autocomplete_no_results_for_query">نتیجه‌ای برای %1$s پیدا نشد</string>
+    <string name="places_autocomplete_search_hint">جستجو</string>
+    <string name="places_cancel">لغو</string>
+    <string name="places_powered_by_google">‏ارائه‌شده توسط Google</string>
+    <string name="places_search_error">نتایج جستجو بارگیری نمی‌شود.</string>
+    <string name="places_try_again">امتحان دوباره</string>
     <string msgid="730395136688082741" name="search_menu_title">"جستجو"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

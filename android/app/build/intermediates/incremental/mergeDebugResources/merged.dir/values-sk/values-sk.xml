@@ -45,6 +45,14 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Otvoriť v telefóne"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Prihlásiť sa"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Prihlásiť sa účtom Google"</string>
+    <string name="places_autocomplete_clear_button">Vymazať vyhľadávanie</string>
+    <string name="places_autocomplete_label">Výber miesta</string>
+    <string name="places_autocomplete_no_results_for_query">Nenašli sa žiadne výsledky pre dopyt %1$s</string>
+    <string name="places_autocomplete_search_hint">Vyhľadávanie</string>
+    <string name="places_cancel">Zrušiť</string>
+    <string name="places_powered_by_google">Používa technológiu Google</string>
+    <string name="places_search_error">Výsledky vyhľadávania sa nedajú načítať.</string>
+    <string name="places_try_again">Skúsiť znova</string>
     <string msgid="730395136688082741" name="search_menu_title">"Hľadať"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

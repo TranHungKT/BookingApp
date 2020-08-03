@@ -45,6 +45,14 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"スマートフォンで開く"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"ログイン"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Googleにログイン"</string>
+    <string name="places_autocomplete_clear_button">検索をクリア</string>
+    <string name="places_autocomplete_label">場所を選択</string>
+    <string name="places_autocomplete_no_results_for_query">「%1$s」と一致する結果はありません</string>
+    <string name="places_autocomplete_search_hint">検索</string>
+    <string name="places_cancel">キャンセル</string>
+    <string name="places_powered_by_google">Powered by Google</string>
+    <string name="places_search_error">検索結果を読み込めません。</string>
+    <string name="places_try_again">再試行</string>
     <string msgid="730395136688082741" name="search_menu_title">"検索"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>
