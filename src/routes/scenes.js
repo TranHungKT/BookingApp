@@ -1,6 +1,6 @@
-import React from 'react';
-import {Actions, Scene, Router, Stack} from 'react-native-router-flux';
-import HomeContainer from './Home/containers/HomeContainer';
+import React from "react";
+import { Actions, Scene, Router, Stack } from "react-native-router-flux";
+import HomeContainer from "./Home/containers/HomeContainer";
 // import TrackDriverContainer from "./TrackDriver/container/TrackDriverContainer";
 
 const scenes = Actions.create(
@@ -9,7 +9,7 @@ const scenes = Actions.create(
       <Scene key="home" component={HomeContainer} title="home" initial />
       {/* <Scene key="trackDriver" component={TrackDriverContainer} title="trackDriver"/> */}
     </Stack>
-  </Router>,
+  </Router>
 );
 
 export default scenes;

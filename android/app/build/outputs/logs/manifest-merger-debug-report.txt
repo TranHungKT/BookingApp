@@ -17,6 +17,7 @@ MERGED from [:react-native-google-places] /Users/tranhung/Documents/Code/Awesome
 MERGED from [:react-native-reanimated] /Users/tranhung/Documents/Code/AwesomeProject/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /Users/tranhung/Documents/Code/AwesomeProject/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /Users/tranhung/Documents/Code/AwesomeProject/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /Users/tranhung/Documents/Code/AwesomeProject/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.62.2] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/0c76ffe6fcf9e14e3c2cd76929f77c44/jetified-react-native-0.62.2/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.libraries.places:places:1.1.0] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/c1101d286ea0eb98cdf16a1df5c316a1/jetified-places-1.1.0/AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/a430ff083c3ccb9e6346144a5dd2ced9/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -256,6 +257,8 @@ MERGED from [:react-native-safe-area-context] /Users/tranhung/Documents/Code/Awe
 MERGED from [:react-native-safe-area-context] /Users/tranhung/Documents/Code/AwesomeProject/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /Users/tranhung/Documents/Code/AwesomeProject/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /Users/tranhung/Documents/Code/AwesomeProject/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/tranhung/Documents/Code/AwesomeProject/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/tranhung/Documents/Code/AwesomeProject/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.62.2] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/0c76ffe6fcf9e14e3c2cd76929f77c44/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.62.2] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/0c76ffe6fcf9e14e3c2cd76929f77c44/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.libraries.places:places:1.1.0] /Users/tranhung/.gradle/caches/transforms-2/files-2.1/c1101d286ea0eb98cdf16a1df5c316a1/jetified-places-1.1.0/AndroidManifest.xml:7:5-44

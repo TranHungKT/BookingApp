@@ -3,6 +3,9 @@ import { View, Text, TouchableOpacity } from "react-native";
 import { MapContainer } from "./MapComponent";
 
 import { Container } from "native-base";
+import HeaderComponent from "../../../components/HeaderComponent";
+import FooterComponent from "../../../components/FooterComponent";
+const taxiLogo = require("../../../assets/taxi_logo_white.png");
 
 export default class Home extends Component {
   constructor(props) {
@@ -22,11 +25,15 @@ export default class Home extends Component {
 
     return (
       <Container>
-        <MapContainer
-          region={this.props.region}
-          getInputData={this.props.getInputData}
-          toggleSearchResultModal={this.props.toggleSearchResultModal}
-        />
+        <HeaderComponent logo={taxiLogo} />
+        {this.props.region.latitude && (
+          <MapContainer
+            region={this.props.region}
+            getInputData={this.props.getInputData}
+            toggleSearchResultModal={this.props.toggleSearchResultModal}
+          />
+        )}
+        <FooterComponent /> 
       </Container>
     );
   }

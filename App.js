@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { StyleSheet, View } from "react-native";
 
 import Root from "./src/main";
-console.ignoredYellowBox = ["Warning: Each", "Warning: Failed"];
+
 export default class App extends Component {
   constructor(props) {
     super(props);
